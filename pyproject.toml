@@ -6,7 +6,7 @@ authors = ["Yun Hai <bybxbwg@foxmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.9"
+python = "^3.10"
 edge-tts = "^6.1.12"
 pygame = "^2.6.0"
 toml = "^0.10.2"

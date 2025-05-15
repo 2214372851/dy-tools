@@ -17,7 +17,6 @@ from pygame import mixer
 
 from utils import live_ws
 from utils.expired_queue import ExpiredQueue
-from utils.retry import retry
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
