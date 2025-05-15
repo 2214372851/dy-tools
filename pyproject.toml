@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dy-live"
+version = "0.1.0"
+description = ""
+authors = ["Yun Hai <bybxbwg@foxmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.9"
+edge-tts = "^6.1.12"
+pygame = "^2.6.0"
+toml = "^0.10.2"
+requests = "^2.32.3"
+pyside6 = "^6.7.2"
+requests-toolbelt = "^1.0.0"
+httpx = "^0.27.2"
+jsengine = "^1.0.7.post1"
+websocket-client = "^1.8.0"
+protobuf = "^5.28.0"
+win32mica = "^3.0"
+plyer = "^2.1.0"
+pyinstaller = "^6.10.0"
+naive = {path = "naive-0.0.3-py3-none-any.whl"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

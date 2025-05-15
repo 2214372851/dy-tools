@@ -1,0 +1,5 @@
+live_id = 175345233597
+welcome_template = [ "欢迎${username}",]
+gift_template = [ "感谢${username}送出的${gift}",]
+attention_template = [ "感谢${username}的关注",]
+font_size = 12
